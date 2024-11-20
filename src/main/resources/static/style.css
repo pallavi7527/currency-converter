@@ -1,0 +1,75 @@
+html, body {
+    height: 100%; /* Ensure the body takes up the full height */
+    margin: 0; /* Remove default margin */
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #74ebd5, #9face6);
+    color: #333;
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.container {
+    max-width: 400px;
+    width: 100%; /* Make it responsive */
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    color: #2c3e50; /* Dark blue for the main title */
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #34495e; /* Darker gray for labels */
+    background-color: #e0f7fa; /* Light cyan background */
+    padding: 5px; /* Add some padding for better spacing */
+    border-radius: 4px; /* Optional: round the corners */
+}
+
+input[type='number'] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 2px solid #74ebd5; /* Light teal border */
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745; /* Green button */
+    color: white; /* White text on button */
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+h2 {
+    margin-top: 20px;
+    color: #e74c3c; /* Red for the result text */
+}
+
+footer {
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #7f8c8d; /* Gray for footer text */
+    text-align: center; /* Center the text */
+}
